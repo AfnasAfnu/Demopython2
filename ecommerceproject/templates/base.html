@@ -15,7 +15,7 @@
     <meta name="description" content="{% block metadescription %}{% endblock %}"
     <title>{% block title %}{% endblock %}</title>
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
 
 <div class="container">
 
@@ -30,6 +30,6 @@
 {% include 'footer.html' %}
     <script src="{% static 'js/popper.min.js' %}" ></script>
     <script src="{% static 'js/bootstrap.min.js' %}"></script>
-
+</div>
 </body>
 </html>
